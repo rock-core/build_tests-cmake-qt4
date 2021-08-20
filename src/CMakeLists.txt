@@ -1,7 +1,11 @@
-rock_library(test_qt4
-    SOURCES Dummy.cpp
-    HEADERS Dummy.hpp)
+rock_find_qt4()
 
-rock_executable(test_qt4_bin Main.cpp
-    DEPS test_qt4)
-
+rock_executable(test_qt4
+    SOURCES
+        Main.cpp
+	Gui.cpp
+    MOC
+	Gui.h
+    UI
+        main.ui 
+)

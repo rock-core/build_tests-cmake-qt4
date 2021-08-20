@@ -1,10 +1,13 @@
-#include <iostream>
-#include <test_qt4/Dummy.hpp>
+#include "Gui.h"
+
+#include <QString>
+#include <QWorkspace>
 
 int main(int argc, char** argv)
 {
-    test_qt4::DummyClass dummyClass;
-    dummyClass.welcome();
+    QApplication a(argc, argv);
 
-    return 0;
+    QString b = QString::fromAscii("test");
+ 
+    return a.exec();
 }
