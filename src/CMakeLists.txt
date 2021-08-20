@@ -3,9 +3,9 @@ rock_find_qt4()
 rock_executable(test_qt4
     SOURCES
         Main.cpp
-	Gui.cpp
+	    Gui.cpp
     MOC
-	Gui.h
+	    Gui.h
     UI
-        main.ui 
+        main.ui
 )
