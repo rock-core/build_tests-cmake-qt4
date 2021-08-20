@@ -1,0 +1,17 @@
+<package>
+  <description brief="Test package for qt4 macros">
+  
+  </description>
+  <author>Dennis Hemker/dennis.hemker@dfki.de</author>
+  <license></license>
+  <url>http://https://github.com/rock-core/build_tests-cmake-qt4</url>
+  <logo>http://</logo>
+  <depend package="base/cmake" />
+  <!--
+   To add any dependencies use the depend tag
+  <depend package="dummy-dependency-0" />
+	...
+  <depend package="dummy-dependency-n-1" />
+  <depend package="dummy-dependency-n" />
+  -->
+</package>
